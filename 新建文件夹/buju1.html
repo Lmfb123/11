@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       *{
+           margin: 0;
+           padding: 0;
+       }
+       html,body{
+           width: 100%;
+           height: 100%;
+       }
+       .inner{
+           width: 1100px;
+           margin:0 auto;
+           clear: both;
+       }
+       .lt,.rt{
+           width: 15%;
+           height: 6000px;
+           background: cyan;
+       }
+       .md{
+           width: 70%;
+           height: 500px;
+           background: darkorange;
+       }
+       .lt,.md,.rt{
+            float: left;
+       }
+   </style>
+</head>
+<body>
+    <div class="inner">
+        <aside class="lt"></aside>
+        <section class="md"></section>
+        <aside class="rt"></aside>
+    </div>
+</body>
+</html>

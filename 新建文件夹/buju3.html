@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            position: relative;
+        }
+        header{
+            height: 100px;
+            width: 100%;
+            background: #333;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        aside{
+            width: 240px;
+            height: 100%;
+            background: cadetblue;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+        }
+        main{
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            background: yellow;
+            padding: 100px 0 60px 240px;
+        }
+        .scroll{
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            background: white;
+        }
+        footer{
+            height: 60px;
+            width: 100%;
+            background: tomato;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <aside></aside>
+    <main>
+        <div class="scroll">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
